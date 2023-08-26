@@ -5,7 +5,7 @@ import { onMounted, ref } from 'vue';
 const data = ref();
 
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=Paris,on,ca&APPID=";
-const API_KEY = "8028340e50625ff8fdab148493e3c032";
+const API_KEY = "PLACEHOLDER"; //add your API key here
 
 onMounted(async () => {
   const res = await fetch(API_URL + API_KEY);
